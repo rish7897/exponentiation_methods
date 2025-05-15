@@ -15,7 +15,7 @@ int fastExponentiationRecurssion(int a, int b) {
         ans *= a;
     }
     return ans;
-}
+}//O(logn)
 
 int fastExponentiation(int a, int b) {
     int ans = 1;
@@ -27,7 +27,7 @@ int fastExponentiation(int a, int b) {
         b >>= 1;
     }
     return ans;
-}
+}//O(logn)
 
 int slowExponentiation(int a, int b) {
     int ans = 1;
